@@ -1,0 +1,22 @@
+{
+  "name": "skill-sample-js-trivia",
+  "version": "1.0.0",
+  "description": "A simple trivia skill i18n version.",
+  "main": "index.js",
+  "scripts": {
+    "tester": "node tester.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "trivia"
+  ],
+  "author": "Amazon.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "alexa-sdk": "^1.0.6",
+    "lodash": "^4.17.4",
+    "shuffle-array": "^1.0.1"
+  }
+}
