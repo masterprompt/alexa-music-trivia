@@ -14,5 +14,6 @@ module.exports = function(options){
         console.log('Challenge2:', challenge);
         this.attributes['challenge'] = challenge;
         this.emit(':ask', challenge.speak + challenge.prompt, challenge.prompt);
+        this.emit(':saveState', true);
     };
 };
