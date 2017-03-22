@@ -1,6 +1,6 @@
 'use strict';
 
-var partingPhrases = require('./data/partingPhrases');
+var partingPhrases = require('./../data/partingPhrases');
 var shuffle = require('shuffle-array');
 
 module.exports = function(options){

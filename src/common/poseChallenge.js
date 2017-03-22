@@ -1,6 +1,6 @@
 'use strict';
 
-var constants = require('./constants');
+var constants = require('./../data/constants');
 var generateQuestion = require('./generateQuestion');
 
 module.exports = function(options){

@@ -4,8 +4,7 @@
   "description": "A simple trivia skill i18n version.",
   "main": "index.js",
   "scripts": {
-    "tester": "node tester.js",
-    "dev": "node server.js"
+    "package": "node bin/package.js"
   },
   "keywords": [
     "alexa",
@@ -17,6 +16,9 @@
   "dependencies": {
     "alexa-sdk": "^1.0.6",
     "lodash": "^4.17.4",
+    "node-cmd": "^2.0.0",
+    "nodelint": "^0.6.2",
+    "q": "^1.5.0",
     "shuffle-array": "^1.0.1"
   }
 }

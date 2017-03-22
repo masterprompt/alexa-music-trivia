@@ -1,7 +1,6 @@
 'use strict';
 
-var constants = require('./constants');
-var songs = require('./data/library');
+var songs = require('./../data/library');
 var _ = require('lodash');
 
 module.exports = function(){

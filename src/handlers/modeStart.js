@@ -1,10 +1,10 @@
 'use strict';
 
 var Alexa = require('alexa-sdk');
-var constants = require('./constants');
+var constants = require('./../data/constants');
 
-var sayGoodbye = require('./sayGoodbye');
-var poseChallenge = require('./poseChallenge');
+var sayGoodbye = require('./../common/sayGoodbye');
+var poseChallenge = require('./../common/poseChallenge');
 
 
 module.exports = Alexa.CreateStateHandler(constants.states.START_MODE, {
