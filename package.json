@@ -1,10 +1,11 @@
 {
-  "name": "skill-sample-js-trivia",
+  "name": "music-trivia",
   "version": "1.0.0",
   "description": "A simple trivia skill i18n version.",
   "main": "index.js",
   "scripts": {
-    "package": "node bin/package.js"
+    "package": "node bin/package.js",
+    "tester":"node src/test.js"
   },
   "keywords": [
     "alexa",
