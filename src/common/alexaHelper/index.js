@@ -3,5 +3,6 @@ module.exports = {
     tell: require('./tell'),
     prompt: require('./prompt'),
     reprompt: require('./reprompt'),
+    setState: require('./setState'),
     commit: require('./commit')
 };
