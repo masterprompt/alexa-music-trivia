@@ -1,6 +1,8 @@
 'use strict';
 
 var Alexa = require('alexa-sdk');
+var alexaHelper = require('./../common/alexaHelper');
+
 var constants = require('./../data/constants');
 
 var sayGoodbye = require('./../common/sayGoodbye');

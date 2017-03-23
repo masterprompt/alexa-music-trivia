@@ -4,5 +4,6 @@ module.exports = {
     prompt: require('./prompt'),
     reprompt: require('./reprompt'),
     setState: require('./setState'),
+    intents: require('./intents'),
     commit: require('./commit')
 };
